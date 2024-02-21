@@ -1,1 +1,31 @@
-/*  your css code here. If applicable */
+body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #container{
+            margin: auto;
+            display: flex;
+            background-color: rgb(173, 77, 208);
+            height: 300px;
+            width: calc(100%-10px);
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .btn,.stop{
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-size: 15px;
+            border: none;
+            border-radius: 5px;
+            height: 40px;
+            padding: 1.6rem;
+            color: #ffff;
+            background-color: rgb(94, 60, 149);
+        }
+        .btn:hover,.stop:hover{
+            border-bottom: 2px solid #ffff;
+            background-color: rgb(136, 84, 221);
+            color: lightyellow;
+        }
